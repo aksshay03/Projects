@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>::Barter Exchange::</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style type="text/css">
+    .bs-example{
+        margin: 20px;
+    }
+    /* Fix alignment issue of label on extra small devices in Bootstrap 3.2 */
+    .form-horizontal .control-label{
+        padding-top: 7px;
+    }
+</style>
+   
+
+    </head>
+    <body>
+    <div id="wrapper">
+    <div id="header">
+        <div id="subheader">
+            <div class ="container">
+            <p>
+                World's fastest Barter Exchage place
+                
+                </p>
+                <a href="#">Help</a><a href="#">Download App</a><a href="#">Guest</a><a href="#">Consumer</a>
+            </div> 
+        </div>
+            
+            <!--==main header==-->
+                <div id="main-header">
+                    <!--logo-->
+                  <div id="logo">
+                      <span id="ist">My</span><span id="iist">barter.com</span>
+                </div>
+                    <!--==Seracharea==-->
+                    <div id="search">
+                    <form action="">
+                        <input class="search-area" type="text" name="text" placeholder="Search here">
+                        <input class="search-btn" type="submit" name="submit" value="SEARCH">
+                        </form>
+                    </div>
+                    <!--==user-menu==-->
+                    <div id="user-menu">        
+                    <li><a href ="#">Cart</a></li>
+                    <li><a href ="#">Login</a></li>
+                    </div>
+            </div>
+    
+        </div>
+        <!--==navigation-bar==-->
+        <div id="navigation">
+        <nav>
+            <a href='http://localhost/barterexchange/testindex.php'>home</a>
+            <a href="#">contacts</a>
+            <a href="#">Deals</a>
+            <a href="#">Electronics</a>
+            <a href="#">Accessories</a>
+            <a href="#">Products</a>
+            <a href="#">order</a>
+            
+            </nav>
+        </div><br><br><br><br><br><br><br><br><br>
+    </div>
+    <h2>update</h2>
+
+
+<div class="bs-example">
+    <form class="form-horizontal" name="form" method='post' id="form" action='http://localhost/barterexchange/updatedb.php' enctype="multipart/form-data">
+        <div class="form-group">
+        <label for="pname" class="control-label col-xs-3">Productname</label>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" id="pname" placeholder="Product name" required   name="pname">
+            </div>
+        </div>
+        <br>
+       
+        <div class="form-group">
+        <label for="pexpectation" class="control-label col-xs-3">Expectation</label>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" id="pexpectation" placeholder="expectation"    name="pexpectation">
+            </div>
+        </div>
+        <br>
+        
+
+ <div class="form-group">
+            <div class="col-xs-offset-4 col-xs-10">
+                <input type="submit" class="btn btn-primary"></button>
+            </div>
+        </div>
+
+
+
+
+
+</form>
+</div>
+
+<h2>Delete</h2>
+<div class="bs-example">
+    <form class="form-horizontal" name="form" method='post' id="form" action='http://localhost/barterexchange/deletedb.php' enctype="multipart/form-data">
+        <div class="form-group">
+        <label for="pname" class="control-label col-xs-3">Productname</label>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" id="pname" placeholder="Product name" required   name="pname">
+            </div>
+        </div>
+        <br>
+       
+        
+        
+
+ <div class="form-group">
+            <div class="col-xs-offset-4 col-xs-10">
+                <input type="submit" class="btn btn-primary"></button>
+            </div>
+        </div>
+
+<p div="footer">
+    Please fill all the fields
+    </p>
+
+
+
+</form>
+
+</body>
+</html>
+        <!--==Home-slider==-->
